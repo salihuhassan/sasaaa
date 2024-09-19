@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALIHU STORE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">Logo</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <nav id="nav-menu" class="nav-menu">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="account-cart">
+                    <div class="dropdown">
+                        <button class="dropbtn">Account</button>
+                        <div class="dropdown-content">
+                            <form id="account-form">
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password">
+                                <button type="submit">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Cart</button>
+                        <div class="dropdown-content">
+                            <form id="cart-form">
+                                <h3>Your Cart</h3>
+                                <p>No items in cart</p>
+                                <button type="button">Go to Checkout</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+<section class="massa">
+
+
+
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar">salhu</span>
+            <span class="bar">salhu</span>
+            <span class="bar">salhu</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#">Mens</a></li>
+            <li><a href="#">Womens</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Casual</a></li>
+            <li><a href="#">Formal</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Jewelry</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Returns Policy</a></li>
+            <li><a href="#">Social Media Icons</a></li>
+        </ul>
+    </nav>
+
+</section>
+
+
+
+
+
+<div class="welcome">
+
+
+    <!-- Welcome Area -->
+    <div class="welcome-area">
+        <div class="welcome-sign">
+            <h1>Welcome to Our Store!</h1>
+            <p class="promo-offer">Get 20% Off This Season</p>
+        </div>
+    </div>
+
+    <button id="toggle-promo"> Promotion</button>
+
+
+</div>
+
+ 
+
+
+
+
+
+
+
+<section class="loooter">
+
+
+
+    <div class="storefront">
+        <!-- Seasonal Promotion Section -->
+        <div class="display-window">
+            <h2>Seasonal Promotion</h2>
+            <div class="carousel" id="promotion-carousel">
+                <div class="carousel-item">
+                    <img src="asset/image/lap3.jpg" alt="Mannequin 1" class="mannequin-image">
+                    <p class="promo-text">30% Off on All Items</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/lap3.jpg" alt="Mannequin 1" class="mannequin-image">
+                    <p class="promo-text">30% Off on All Items</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/lap3.jpg" alt="Mannequin 1" class="mannequin-image">
+                    <p class="promo-text">30% Off on All Items</p>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="asset/image/lap2.jpg" alt="Mannequin 2" class="mannequin-image">
+                    <p class="promo-text">End of Season Sale!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/lap2.jpg" alt="Mannequin 2" class="mannequin-image">
+                    <p class="promo-text">End of Season Sale!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/lap2.jpg" alt="Mannequin 2" class="mannequin-image">
+                    <p class="promo-text">End of Season Sale!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Arrivals Section -->
+        <div class="display-window">
+            <h2>New Arrivals</h2>
+            <div class="carousel" id="new-arrival-carousel">
+                <div class="carousel-item">
+                    <img src="asset/image/lap3.jpg" alt="Mannequin 3" class="mannequin-image">
+                    <p class="promo-text">Fresh Spring Collection</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/demo5.jpg" alt="Mannequin 4" class="mannequin-image">
+                    <p class="promo-text">New Fall Fashion</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/demo1.jpg" alt="Mannequin 4" class="mannequin-image">
+                    <p class="promo-text">New Fall Fashion</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/demo1.jpg" alt="Mannequin 4" class="mannequin-image">
+                    <p class="promo-text">New Fall Fashion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="prev-promotion">Prev</button>
+    <button id="next-promotion">Next</button>
+    <button id="prev-arrival">Prev</button>
+    <button id="next-arrival">Next</button>
+
+
+</section>
+
+
+
+
+
+
+<section class="cate">
+
+
+    <div class="category-sections">
+        <!-- Men's Clothing Section -->
+        <div class="section">
+            <h2>Men’s Clothing</h2>
+            <div class="slider">
+                <div class="slide">
+                    <img src="asset/image/lap3.jpg" alt="Men's Casual Wear">
+                    <h3>Casual Wear</h3>
+                    <ul>
+                        <li>T-shirts</li>
+                        <li>Jeans</li>
+                        <li>Shorts</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/mett2.jpg" alt="Men's Formal Wear">
+                    <h3>Formal Wear</h3>
+                    <ul>
+                        <li>Suits</li>
+                        <li>Dress Shirts</li>
+                        <li>Trousers</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/call center.jpg" alt="Men's Accessories">
+                    <h3>Accessories</h3>
+                    <ul>
+                        <li>Belts</li>
+                        <li>Ties</li>
+                        <li>Hats</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Women's Clothing Section -->
+        <div class="section">
+            <h2>Women’s Clothing</h2>
+            <div class="slider">
+                <div class="slide">
+                    <img src="asset/image/lab1.jpg" alt="Women's Casual Wear">
+                    <h3>Casual Wear</h3>
+                    <ul>
+                        <li>Dresses</li>
+                        <li>Skirts</li>
+                        <li>Tops</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/demo5.jpg" alt="Women's Formal Wear">
+                    <h3>Formal Wear</h3>
+                    <ul>
+                        <li>Suits</li>
+                        <li>Gowns</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/tec3.jpg" alt="Women's Accessories">
+                    <h3>Accessories</h3>
+                    <ul>
+                        <li>Jewelry</li>
+                        <li>Handbags</li>
+                        <li>Scarves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kids' Clothing Section -->
+        <div class="section">
+            <h2>Kids’ Clothing</h2>
+            <div class="slider">
+                <div class="slide">
+                    <img src="asset/image/book lap.jpg" alt="Kids' Casual Wear">
+                    <h3>Casual Wear</h3>
+                    <ul>
+                        <li>T-shirts</li>
+                        <li>Shorts</li>
+                        <li>Dresses</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/lap2.jpg " alt="Kids' Casual Wear">
+                    <h3>Casual Wear</h3>
+                    <ul>
+                        <li>T-shirts</li>
+                        <li>Shorts</li>
+                        <li>Dresses</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/laptop1.jpg" alt="Kids' Formal Wear">
+                    <h3>Formal Wear</h3>
+                    <ul>
+                        <li>Mini Suits</li>
+                        <li>Party Dresses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accessories Section -->
+        <div class="section">
+            <h2>Accessories Section</h2>
+            <div class="slider">
+                <div class="slide">
+                    <img src="asset/image/laptop.jpg" alt="Shoes">
+                    <h3>Shoes</h3>
+                    <ul>
+                        <li>Displayed on racks or shelves</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/bag.jpg" alt="Bags and Purses">
+                    <h3>Bags and Purses</h3>
+                    <ul>
+                        <li>Organized on display tables or shelves</li>
+                    </ul>
+                </div>
+                <div class="slide">
+                    <img src="asset/image/book lap 2.jpg" alt="Jewelry and Hats">
+                    <h3>Jewelry and Hats</h3>
+                    <ul>
+                        <li>Displayed in showcases or racks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<div class="category-sections">
+    <!-- Men's Clothing Section -->
+    <div class="section">
+        <h2>Men's Clothing</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/guy5.jpg" alt="Men's Casual Wear">
+                <h3>Casual Wear</h3>
+                <ul>
+                    <li><img src="asset/image/tec3.jpg" alt="T-shirt"> T-shirts - $25.99</li>
+                    <li><img src="asset/image/demo1.jpg" alt="Jeans"> Jeans - $49.99</li>
+                    <li><img src="asset/image/guy1.jpg" alt="Shorts"> Shorts - $19.99</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <img src="asset/image/biul3.jpg" alt="Men's Formal Wear">
+                <h3>Formal Wear</h3>
+                <ul>
+                    <li><img src="asset/image/lap2.jpg" alt="Suit"> Suits - $199.99</li>
+                    <li><img src="asset/image/bag.jpg" alt="Dress Shirt"> Dress Shirts - $39.99</li>
+                    <li><img src="asset/image/guy1.jpg" alt="Trousers"> Trousers - $59.99</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <img src="asset/image/laptop.jpg" alt="Men's Accessories">
+                <h3>Accessories</h3>
+                <ul>
+                    <li><img src="asset/image/laptop1.jpg" alt="Belt"> Belts - $15.99</li>
+                    <li><img src="asset/image/bag.jpg" alt="Tie"> Ties - $12.99</li>
+                    <li><img src="asset/image/lap2.jpg" alt="Hat"> Hats - $19.99</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="category-sections">
+    <!-- Women's Casual Wear Section -->
+    <div class="section">
+        <h2>Women’s Casual Wear</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/guy1.jpg" alt="Dresses">
+                <h3>Dresses</h3>
+                <p>Price: $39.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lab1.jpg" alt="Dresses">
+                <h3>Dresses</h3>
+                <p>Price: $39.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lap2.jpg" alt="Skirts">
+                <h3>Skirts</h3>
+                <p>Price: $29.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/book lap.jpg" alt="Tops">
+                <h3>Tops</h3>
+                <p>Price: $24.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Women's Formal Wear Section -->
+    <div class="section">
+        <h2>Women’s Formal Wear</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/tec3.jpg" alt="Women's Suit">
+                <h3>Suits</h3>
+                <p>Price: $149.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/prof1.jpg" alt="Gowns">
+                <h3>Gowns</h3>
+                <p>Price: $199.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lap4.jpg" alt="Gowns">
+                <h3>Gowns</h3>
+                <p>Price: $199.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/book lap 2.jpg" alt="Gowns">
+                <h3>Gowns</h3>
+                <p>Price: $199.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Women's Accessories Section -->
+    <div class="section">
+        <h2>Women’s Accessories</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/biul1.jpg" alt="Jewelry">
+                <h3>Jewelry</h3>
+                <p>Price: $49.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lap4.jpg" alt="Handbags">
+                <h3>Handbags</h3>
+                <p>Price: $89.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/biul3.jpg" alt="Scarves">
+                <h3>Scarves</h3>
+                <p>Price: $19.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/laptop1.jpg" alt="Scarves">
+                <h3>Scarves</h3>
+                <p>Price: $19.99</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="category-sections">
+    <!-- Kid's Casual Wear Section -->
+    <div class="section">
+        <h2>Kid’s Casual Wear</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/laptop.jpg" alt="Dresses">
+                <h3>T-shirts</h3>
+                <p>Price: $25.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/demo1.jpg" alt="Skirts">
+                <h3>Shorts</h3>
+                <p>Price: $19.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/stud1.jpg" alt="Tops">
+                <h3>Dresses</h3>
+                <p>Price: $15.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lap3.jpg" alt="Tops">
+                <h3>Mini Suits</h3>
+                <p>Price: $15.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kid's Formal Wear Section -->
+    <div class="section">
+        <h2>Kid’s Formal Wear</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/stud2.jpg" alt="Kid's Suit">
+                <h3>Mini Suits</h3>
+                <p>Price: $45.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/schll1.jpg" alt="Gowns">
+                <h3>Party Dresses</h3>
+                <p>Price: $49.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/tec3.jpg" alt="Gowns">
+                <h3>Gowns</h3>
+                <p>Price: $49.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/book lap 2.jpg" alt="Gowns">
+                <h3>Dress Shirts</h3>
+                <p>Price: $49.99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kid's Accessories Section -->
+    <div class="section">
+        <h2>Kid’s Accessories</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="asset/image/stud1.jpg" alt="Jewelry">
+                <h3>Jewelry</h3>
+                <p>Price: $9.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/biul3.jpg" alt="Handbags">
+                <h3>Belts</h3>
+                <p>Price: $12.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/lab1.jpg" alt="Scarves">
+                <h3>Ties</h3>
+                <p>Price: $8.99</p>
+            </div>
+            <div class="slide">
+                <img src="asset/image/laptop1.jpg" alt="Scarves">
+                <h3>Scarves</h3>
+                <p>Price: $8.99</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <!-- Section Title and Intro Text -->
+            <h2>Get in Touch</h2>
+            <p>We’re here to help! Feel free to reach out to us with any questions, concerns, or feedback.</p>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <p>📞 +234 8066610571 (Mon-Fri, 9 AM - 6 PM)</p>
+                <p>📧 <a href="salihubarup@gmail.com">salihubarup@gmail.com</a></p>
+                <p>🏢 123 Fashion Street, Lagos, Nigeria</p>
+                <p>🕒 Monday - Friday: 9 AM - 6 PM</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+                <p id="confirmation-message" class="hidden">Thank you for reaching out! We’ll get back to you within 24 hours.</p>
+            </form>
+
+           
+
+            <!-- Google Map Embed (Optional) -->
+            <div class="map">
+                <h3>Find Us:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- FAQ Link -->
+            <div class="faq-link">
+                <a href="faq.html">For more information, check our FAQs.</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Section 1: Quick Links -->
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 2: Newsletter Signup -->
+            <div class="footer-section newsletter">
+                <h3>Newsletter Signup</h3>
+                <p>Stay updated with our latest collections and offers. Subscribe to our newsletter!</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p class="privacy-disclaimer">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+
+         
+            <!-- Section 4: Social Media Links -->
+            <div class="footer-section social-media">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="asset/image/download.png" alt="Facebook"></a>
+                    <a href="#"><img src="asset/image/og.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="asset/image/lo.png" alt="Twitter"></a>
+                    <a href="#"><img src="asset/image/TikTok.png" alt="TikTok"></a>
+                    </div>
+            </div>
+           
+
+            <!-- Section 5: Payment Methods -->
+            <div class="footer-section payment-methods">
+                <h3>Accepted Payment Methods</h3>
+                <div class="payment-icons">
+                    <img src="asset/image/visa.png" alt="Visa">
+                    <img src="asset/image/mastercard.png" alt="MasterCard">
+                    <img src="asset/image/paypal.jpeg" alt="PayPal">
+                </div>
+            </div>
+
+            <!-- Section 6: Copyright and Legal -->
+            <div class="footer-section copyright">
+                <p>© 2024 salihu store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
